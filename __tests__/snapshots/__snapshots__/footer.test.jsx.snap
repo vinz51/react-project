@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot footer 1`] = `
+<div
+  className={undefined}
+>
+  <p
+    className={undefined}
+  >
+    Website created by Vincent BENOIT - 2018
+  </p>
+</div>
+`;

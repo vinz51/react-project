@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: $default-color;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: inherit;
+}

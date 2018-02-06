@@ -1,0 +1,55 @@
+@import "./settings.colors";
+
+.postitem {
+    margin-bottom: 10px;
+    background-color: $white;
+    
+    .postitem-link {
+        display: block;
+        padding: 10px;
+        border: 1px solid $light-grey;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px $light-grey;
+        
+        h1 {
+            border-bottom: 1px solid $light-grey;
+            padding-bottom: 8px;
+        }
+        
+        p {
+            padding: 10px 0;
+        }
+    }
+}
+
+.postList-more {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    
+    &:hover {
+        background-color: $green;
+        color: $white;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .postList {
+        margin: 0 auto;
+        width: 960px;
+    }
+    
+    .postitem {
+        width: 32%;
+        margin: 0 5px 10px;
+        display: inline-block;
+        vertical-align: top;
+        
+        .postitem-link {
+            height: 180px;
+        }
+    }
+}

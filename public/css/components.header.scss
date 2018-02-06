@@ -1,0 +1,22 @@
+@import "./settings.colors.scss";
+
+.header {
+    height: 50px;
+    position: fixed;
+    background-color: $green;
+    width: 100%;
+    border-bottom: 2px solid $dark-green;
+    top: 0;
+    box-shadow: 0px 2px 3px $grey-shadow;
+    
+    .header-link {
+        display: inline-block;
+        height: 34px;
+        width: 34px;
+        padding: 8px;
+        
+        .header-image {
+            width: 100%;
+        }
+    }
+}
